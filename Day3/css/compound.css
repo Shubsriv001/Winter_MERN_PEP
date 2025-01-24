@@ -1,0 +1,37 @@
+h2 {
+    color: lime;
+    background-color: black;
+}
+
+small {
+    color: blue;
+}
+
+p {
+    background-color: yellow;
+}
+
+#lorem-text {
+    background-color: aqua;
+} 
+
+
+.text-type-1 {
+    background-color: brown;
+}
+
+h2.text-type-1 {
+    color: lime;
+}
+
+.big-text {
+    font-size: 32px;
+}
+
+.color-red {
+    background-color: red;
+}
+
+.color-red.big-text {
+    color: violet;
+}

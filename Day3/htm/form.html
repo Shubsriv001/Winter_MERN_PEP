@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <h2>Register for Resident in India</h2>
+    <br>
+    <hr><br><br>
+
+    <form action="./form2.html" method="GET">
+        <label>First Name / Preferred Name:</label>
+        <input placeholder="Please type here..." type="text" name="userFirstName" maxlength="4" required
+            autocapitalize="characters">
+        <br><br>
+        <label>Age:</label>
+        <input placeholder="Please type here..." type="number" name="age" value="28">
+        <br><br>
+        <label>Email:</label>
+        <input placeholder="Please type here..." type="email" name="userEmail" required autocomplete="off">
+        <br><br>
+        <label>Password:</label>
+        <input placeholder="Please type here..." type="password" name="userPassword" required>
+        <br><br>
+        <label>Donation:</label>
+        <input placeholder="Please type here..." type="number" name="donation" required value="10" readonly>
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <br>
+    <hr><br><br>
+    <h2>?name1=value1&name2=value2&name3=value3</h2>
+    <br><br>
+    <h4>Naming convention</h4>
+    <dl>
+        <dt>camelCase</dt>
+        <dd>multiple words are joined by making the first letter capital (except first word)<br>
+            ex. hello manoj ==> helloManoj
+        </dd>
+        <dt>kebab-case / hyphen-case</dt>
+        <dd>multiple words are joined by '-' in between<br>
+            ex. hello manoj ==> hello-manoj
+        </dd>
+        <dt>snake_case</dt>
+        <dd>multiple words are joined by '_' in between<br>
+            ex. hello Shubhanshu ==> hello_shubhanshu
+        </dd>
+    </dl>
+
+</body>
+
+</html>

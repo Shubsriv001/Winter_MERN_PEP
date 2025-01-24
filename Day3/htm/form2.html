@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Please provide more details</h2>
+    <form>
+        <div>
+            <label>Gender:</label><br>
+            <input type="radio" name="gender" value="male" id="i-g-m"><label for="i-g-m">Male</label><br>
+            <input type="radio" name="gender" value="female" id="i-g-f" checked><label for="i-g-f">Female</label>
+        </div>
+        <div>
+            <label>Documents:</label><br>
+            <input type="checkbox" name="document-submitted" value="passport" id="i-d-p"><label
+                for="i-d-p">Passport</label><br>
+            <input type="checkbox" name="document-submitted" value="dr-lc" id="i-d-d"><label for="i-d-d">Driving
+                License</label><br>
+            <input type="checkbox" name="document-submitted" value="re-pr" id="i-d-r" checked disabled><label
+                for="i-d-r">Resident
+                Proof</label><br>
+            <br>
+        </div>
+        <div>
+            <label>Documents:</label><br>
+            <select name="document-selected">
+                <option value="passport">Passport</option>
+                <option value="dr-lc" selected>Driving License</option>
+                <option value="re-pr">Resident Proof</option>
+            </select>
+            <br>
+        </div>
+        <div>
+            <label>Score:</label><br>
+            <input type="range" name="score-yourself" min="1" max="10" value="2">
+        </div>
+
+        <textarea name="description" rows="10" cols="50">This is my request to register....</textarea>
+        <br><br>
+
+
+        <input type="checkbox" hidden name="document-submitted" value="re-pr" id="i-d-r" checked>
+        <button>Register</button> <!-- default is type="submit" -->
+        <!-- <input type="submit" value="Register"> -->
+    </form>
+</body>
+
+</html>
