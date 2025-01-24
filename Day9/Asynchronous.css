@@ -1,0 +1,17 @@
+body{
+    background-color: #000;
+    color: #fff;
+}
+
+.h1{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    border: 2px solid white;
+    padding: 30px;
+    box-shadow: 0 0 20px red;
+}
