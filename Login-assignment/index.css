@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: poppins;
+}
+
+#head{
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 600;
+    color: #191D23;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.container1{
+    width: 520px;
+    height: 728px;
+    border-radius: 40px;
+    box-shadow: 0 0 20px rgb(212, 212, 212);
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.container2{
+    width: 360px;
+    height: 336px;
+
+}
+
+
+.container2 input{
+    width: 360px;
+    height: 48px;
+    border-radius: 10px;
+    background-color:#F7F8F9;
+    border: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-right: 15px;
+    font-size: 16px;
+    
+}
+
+.button{
+    width: 360px;
+    height: 48px;
+    border-radius: 35px;
+    font-size: 16px;
+    line-height: 16px;
+    font-weight: 600;
+}
+
+#signup-button{
+    background-color: #10B981;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+#google-button{
+    background-color: #191D23;
+    color: white;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding-top: 8px;
+
+}
+.buttons p{
+  display: flex;
+  justify-content: center;
+}
+
+#login{
+    text-decoration: none;
+    color: #10B981;
+}
+.data form{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+#login{
+    padding-left: 8px;
+}
+
+
+#eye{
+    padding-left: 90%;
+    transform: translateY(-40px);
+    cursor: pointer;
+}
