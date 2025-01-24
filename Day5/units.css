@@ -1,0 +1,29 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    /* 16px */
+}
+
+.main-container {
+    font-size: 2em;
+    /* 32px */
+}
+
+h2 {
+    font-size: 2em;
+    /* 64px */
+}
+
+p {
+    font-size: 2em;
+    /* 64px */
+}
+
+b {
+    font-size: 2em;
+    /* 128px */
+}

@@ -1,0 +1,26 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    border: 1px solid brown;
+    padding: 1rem;
+    margin: 1rem;
+}
+
+/* vw & vh: percentage(its not written in syntax) 
+of viewport height or width */
+.container-v {
+    height: 100px;
+    width: 50vw;
+    background-color: red;
+}
+
+/* % : dependent on the value of the parent */
+.container-p {
+    height: 100px;
+    width: 50%;
+    background-color: orange;
+}

@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main-container {
+    color: red;
+    padding: 24px;
+    border: 1px solid black;
+    margin: 24px;
+    background-color: chocolate;
+    font-size: 24px;
+}
+
+input {
+    color: green;
+    font-size: 24px;
+}

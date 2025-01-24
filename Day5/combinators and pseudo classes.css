@@ -1,0 +1,81 @@
+Descendent Combinator
+/* section li {
+    background-color: cadetblue;
+} */
+
+/* CHILD Combinator */
+/* section > ol {
+    background-color: cadetblue;
+} */
+
+/* ADJACENT NEXT SIBLING SELECTOR */
+/* h6 {
+    background-color: lime;
+} */
+
+/* body > ol {
+    background-color: red;
+} */
+
+/* NEXT SIBLING COMBINATOR */
+
+/* ol + li {
+    background-color: brown;
+} */
+
+/* SUBSEQUENT SIBLING COMBINATOR */
+p ~ li {
+    background-color: blue;
+}
+
+h6 + section p + h6 {
+    background-color: pink;
+}
+
+h6 + section > h6 {
+    background-color: violet;
+}
+
+ p {
+    transition-duration: 2s;
+    transition-property: all;
+}
+
+p:hover {
+    background-color: pink;
+    font-size: 2rem;
+}
+
+button {
+    padding: 0.3rem 0.9rem;
+    border-radius: 0.3rem;
+    border: 1px solid #3c4043;
+    background-color: #f5f3ee;
+
+    transition-duration: 600ms;
+    transition-property: all;
+    color: darkblue;
+}
+
+button:hover {
+    background-color: #e0dfdd;
+    cursor: pointer;
+
+    scale: 1.05; /* scale property helps to make the element grow big(1+, 1.1, 2.1) or shrink (1-, 0.9, 0.7) */
+}
+
+button:active {
+    transition-duration: 0;
+    scale: 0.7;
+}
+
+button:disabled {
+    opacity: 0.6;
+}
+
+button:disabled:hover {
+    opacity: 0.6;
+    scale: 1;
+    cursor: not-allowed;
+    background-color: #f5f3ee;
+} 
