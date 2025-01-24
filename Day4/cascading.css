@@ -1,0 +1,32 @@
+h2 {
+    /* height: 100px; */
+}
+
+#title {
+    color: red;
+}
+
+.heading {
+    font-size: 30px;
+}
+
+h2 {
+    height: 200px;
+    width: 500px;
+    margin-left: 300px;
+    margin: 50px auto; /* auto keywords align the element in center *only horizontally */
+    justify-content: center;
+}
+
+h4 {
+    font-size: 30px;
+    width: fit-content;
+    color: orange;
+    margin: auto;
+    outline: 10px solid brown;
+}
+
+h3 {
+    font-size: 30px;
+    text-align: center;
+}

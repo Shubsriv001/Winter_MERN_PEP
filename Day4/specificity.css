@@ -1,0 +1,27 @@
+* {
+    color: red;
+}
+
+p.text {
+    color: brown;
+}
+
+p {
+    color: gold;
+}
+
+.text {
+    color: green;
+}
+
+p.text#letters {
+    color: lime;
+}
+
+#letters {
+    color: violet;
+}
+
+.text-highest {
+    color: aqua !important; /* NEVER USE IMPORTANT until its last option */
+}
