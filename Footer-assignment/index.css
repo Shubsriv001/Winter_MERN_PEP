@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Sour+Gummy:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+font-family: poppins;
+}
+body{
+background-color: #f4d2a4;
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    width: 100vw;
+    height: 100vh;
+}
+
+.container{
+    width: 100vw;
+    height: 35vh;
+    border-top: 2px solid #f4d2a4;
+    border-bottom: 2px solid #f4d2a4;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+ gap: 35px;
+ padding-left: 50px;
+ padding-right: 50px;
+ box-shadow: 0 0 10px;
+
+}
+
+.main{
+    width: 100vw;
+    height: 50vh;
+border: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: black;
+    color: aliceblue;
+}
+
+.bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 40px;
+    padding-right: 40px;
+    color: #fff3e4cf;
+    font-size: 14px;
+    margin-top: 30px;
+cursor: pointer;
+}
+.right-bottom{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
+
+
+.data{
+    text-transform: capitalize;
+
+}
+ul{
+    list-style: none;
+    padding-left: 5px;
+
+}
+
+a{
+    text-decoration: none;
+    color:#fff3e4cf;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+a:hover{
+    color: rgb(73, 187, 143);
+
+    transition: .5s;
+}
+a:active{
+    color: red;
+}
+
+h3{
+    text-shadow: 0 0 20px rgb(239, 239, 239);
+}
+
+h1{
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    color: white;
+    
+}
+
+.message {
+    display: flex;
+    width: 100vw;
+    justify-content: center; 
+    align-items: center;    
+    position: sticky;       
+    top: 30px;             
+    height: 50px;           
+    background-color: #f8f8f8; 
+    border: 1px solid #ccc; 
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1); 
+  
+}
+
+.center{
+   padding-left: 19%;
+}
